@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna Yadav | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">KY</div>
+        <ul class="nav-links">
+            <li><button onclick="scrollToSection('home')">Home</button></li>
+            <li><button onclick="scrollToSection('about')">About</button></li>
+            <li><button onclick="scrollToSection('skills')">Skills</button></li>
+            <li><button onclick="scrollToSection('hardware')">Hardware</button></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Krishna Yadav</span></h1>
+            <p>B.Tech CSE Data Science Student & Full-Stack Developer</p>
+            <button class="cta-btn" onclick="scrollToSection('skills')">View My Work</button>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="glass-card">
+            <p>I am a student at MRIIRS specializing in Data Science. I bridge the gap between software development and physical computing, blending code with hardware like Arduino and Raspberry Pi.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Technical Arsenal</h2>
+        <div class="skills-grid">
+            <div class="skill-card"><h3>Languages</h3><p>Python, C, JavaScript</p></div>
+            <div class="skill-card"><h3>Frontend</h3><p>HTML5, CSS3, JS Animations</p></div>
+            <div class="skill-card"><h3>Data</h3><p>SQL, Tableau, PowerBI</p></div>
+        </div>
+    </section>
+
+    <section id="hardware" class="section">
+        <h2>IoT & Hardware</h2>
+        <div class="hardware-container">
+            <div class="glass-card">
+                <h3>Embedded Systems</h3>
+                <p>Experienced in Arduino Uno & Raspberry Pi Pico for real-world automation projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
